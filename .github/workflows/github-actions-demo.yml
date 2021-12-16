@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: git clone https://github.com/skyyyx/linux-ci_cd
-      - run: cd linux-ci_cd
-      - run: sudo docker-compose.yml up
+      - run: cd linux-ci_cd && sudo docker-compose up
     
