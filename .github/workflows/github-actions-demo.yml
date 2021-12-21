@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: git clone https://github.com/skyyyx/linux-ci_cd
       - run: cd linux-ci_cd && sudo docker-compose up
-      - run: docker-compose ps
+      
